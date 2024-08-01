@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: filldata
+  labels:
+    env: prod
+spec:
+  containers:
+    - name: filldata
+      image: regist
+      
+
+
+
